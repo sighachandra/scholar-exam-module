@@ -1,0 +1,247 @@
+:root {
+   --bodybg: #E6F6FC;
+   --textcolor: #2F9CD4;
+
+}
+.secondHeading{
+    background-color: #379cd4;
+    color: white;
+    padding-left: 266px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.align-head-office{
+	text-align: center;
+}
+.p-office{
+	color: var(--textcolor);
+    font-weight: 500;
+    font-size: 26px;
+}
+.h1-sizing-office{
+   font-size: 33px;
+    color: var(--textcolor);
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+.section-office {
+    width: 75%;
+    height: 191px;
+    background-color: var(--textcolor);
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 37%);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+.section-office p{
+	margin-top: 9px;
+	margin-bottom: 0px;
+}
+.section-office:hover{
+   
+   transform: scale(1.1);
+  /*transition-duration: 2s;*/
+  transition: transform 2s ease;
+}
+.learnmore-office{
+	width: 41%;
+    background-color: white;
+    height: 85px;
+    position: absolute;
+    top: 156px;
+    left: 121px;
+    z-index: -1;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 48%);
+    border-radius: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.learnmore-office p{
+	color: var(--textcolor);
+	font-weight: 500;
+    font-size: 15px;
+
+}
+.section-office-l {
+    width: 37.5%;
+    height: 191px;
+    background-color: var(--textcolor);
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 37%);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+.section-office-l p{
+   margin-top: 9px;
+   margin-bottom: 0px;
+}
+.section-office-l:hover{
+   
+   transform: scale(1.1);
+  /*transition-duration: 2s;*/
+  transition: transform 2s ease;
+}
+.learnmore-office-l{
+   width: 21%;
+    background-color: white;
+    height: 85px;
+    position: absolute;
+    top: 156px;
+    left: 261px;
+    z-index: -1;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 48%);
+    border-radius: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.learnmore-office-l p{
+   color: var(--textcolor);
+   font-weight: 500;
+    font-size: 15px;
+
+}
+.last-sec-arr{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.spacing-second1{
+	margin-top: 70px;
+}
+.spacing-second{
+	margin-top: 100px;
+}
+.pos-relative{
+	position: relative;
+}
+.pos-absolute{
+	position: absolute;
+}
+.space-div{
+   margin-bottom: 120px;
+   margin-top: 120px;
+}
+.space-div-off{
+   padding-top: 120px;
+   padding-bottom: 120px;
+}
+.col-arr{
+   text-align: -webkit-center;
+}
+@media (max-width: 1024px){
+   .section-office{
+      width: 100%;
+   }
+   .learnmore-office{
+      width: 50%;
+      left: 107px;
+   }
+   .section-office-l{
+      width: 50%;
+   }
+   .learnmore-office-l{
+      width: 25%;
+      left: 230px;
+   }
+}
+
+
+@media (max-width: 768px){
+   .section-pic{
+      text-align: center;
+   }
+   .section-pic img{
+      width: 75%;
+   }
+   .section-office{
+      width: 90%;
+      height: 118px;
+   }
+   .section-office p{
+      margin-top: -1px;
+      margin-bottom: 0px;
+      font-size: 12px;
+      font-weight: 400;
+   }
+   .learnmore-office{
+      width: 54%;
+      top: 93px;
+      left: 55px;
+      height: 57px;
+
+   }
+   .learnmore-office p{
+      font-size: 11px;
+      margin-bottom: 7px;
+   }
+   .section-office-l{
+      width: 90%;
+      height: 118px;
+   }
+   .section-office-l p{
+      margin-top: -1px;
+      margin-bottom: 0px;
+     font-size: 12px;
+     font-weight: 400;
+   }
+   .learnmore-office-l{
+      width: 54%;
+      top: 93px;
+      left: 55px;
+      height: 57px;
+
+   }
+   .learnmore-office-l p{
+      font-size: 11px;
+      margin-bottom: 7px;
+   }
+   .col-arr{
+    text-align: -webkit-center;
+    margin-bottom: 50px;
+   }
+   .spacing-second{
+      margin-top: 0px;
+   }
+   .h1-sizing-office{
+      font-size: 17px;
+   }
+   .p-office{
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 8px;
+   }
+   .secondHeading{
+      padding-left: 95px;
+      padding-top: 15px;
+      padding-bottom: 2px;
+   }
+   .secondHeading h1{
+      font-size: 21px;
+    margin-bottom: 0px;
+   }
+   .secondHeading h4{
+      font-size: 14px;
+   }
+   .space-div{
+      margin-bottom: 50px;
+      margin-top: 50px;
+   }
+   .space-div-off{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+}
+
+
+
+  

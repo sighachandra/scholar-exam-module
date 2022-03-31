@@ -1,0 +1,141 @@
+:root {
+   --bodybg: #E6F6FC;
+   --textcolor: #2F9CD4;
+
+}
+.space-common{
+	margin-top: 65px;
+}
+.pos-relative{
+	position: relative;
+}
+.align-head-office{
+	text-align: center;
+}
+.p-office-n{
+	color: var(--textcolor);
+    font-weight: 500;
+    font-size: 26px;
+}
+.h1-sizing-office-n{
+   font-size: 33px;
+    color: var(--textcolor);
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+.news-section{
+	width: 70%;
+    height: 117px;
+    background-color: var(--textcolor);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 37%);
+}
+.news-section p{
+	text-align: center;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    padding: 12px;
+    line-height: 24px;
+}
+.dated-section{
+	width: 70%;
+    height: 117px;
+    border-radius: 14px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: -1;
+     box-shadow: 0px 4px 4px rgb(0 0 0 / 48%);
+}
+.date-wrap{
+	margin-right: 12px;
+}
+.dates{
+	color: var(--textcolor);
+    font-weight: 500;
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+.o-dates{
+	margin-bottom: 0px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--textcolor);
+}
+.space-div-news{
+   padding-top: 120px;
+   padding-bottom: 65px;
+}
+.secondHeading{
+    background-color: #379cd4;
+    color: white;
+    padding-left: 266px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+@media (max-width: 768px){
+   .h1-sizing-office-n{
+      font-size: 17px;
+   }
+   .p-office-n{
+      font-size: 19px;
+   }
+   .space-div-news{
+      padding-top: 34px;
+    padding-bottom: 65px;
+   }
+   .space-common{
+      margin-top: 0px;
+   }
+   .space-between{
+      padding-top: 12px;
+      padding-bottom: 20px;
+      padding-left: 23px;
+      padding-right: 23px;
+   }
+   .news-section{
+      width: 65%;
+      height: 107px;
+   }
+   .news-section p{
+      font-size: 14px;
+   }
+   .dated-section{
+      width: 65%;
+      height: 107px;
+      left: 106px;
+   }
+   .date-wrap{
+      margin-right: 18px;
+   }
+   .dates{
+      font-size: 24px;
+   }
+   .o-dates{
+      font-size: 11px;
+   }
+   .secondHeading{
+      padding-left: 95px;
+      padding-top: 15px;
+      padding-bottom: 2px;
+   }
+   .secondHeading h1{
+      font-size: 21px;
+    margin-bottom: 0px;
+   }
+   .secondHeading h4{
+      font-size: 14px;
+   }
+}

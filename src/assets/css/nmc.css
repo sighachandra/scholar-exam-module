@@ -1,0 +1,185 @@
+:root {
+   --bodybg: #E6F6FC;
+   --textcolor: #2F9CD4;
+
+}
+.align-head-office{
+   text-align: center;
+   margin-bottom: 40px;
+}
+.p-office{
+   color: var(--textcolor);
+    font-weight: 400;
+    font-size: 22px;
+}
+.h1-sizing-office{
+   font-size: 26px;
+    color: var(--textcolor);
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+.depart-spell{
+   color: var(--textcolor);
+   text-align: center;
+   margin-top: 32px;
+}
+
+.pos-relative{
+	position: relative;
+}
+.dept-section{
+	background-color: var(--textcolor);
+    width: 40%;
+    border-radius: 25px;
+}
+.faculty-section{
+	position: absolute;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 24px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 25px;
+}
+.d-flex-arr{
+	display: flex;
+	border-bottom: 2px solid #9fbdc554;
+	padding-top: 16px;
+	margin-left: 24px;
+}
+.faculty-arr{
+	display: flex;
+    
+    border-bottom: 2px solid #9fbdc554;
+    padding-top: 16px;
+    margin-right: 24px;
+}
+.p-style{
+	font-size: 19px;
+   font-weight: 500;
+	/*margin-bottom: 5px;*/
+}
+.dept-p{
+   margin-left: 43px;
+   color: white;
+}
+.faculty-p{
+   color: var(--textcolor);
+}
+.span1{
+   width: 30%;
+}
+.span2{
+   width: 17%;
+}
+.div-head{
+   width: 50%;
+}
+.div-icon{
+   width: 3%;
+}
+.facultydetail-arr{
+   text-align: center;
+}
+.facultydetail-arr h2{
+    color: var(--textcolor);
+    font-weight: 400;
+}
+.facultydetail-arr h6{
+   color: var(--textcolor);
+   font-weight: 500;
+   font-size: 19px;
+   margin-bottom: 26px;  
+}
+.division{
+   margin-bottom: 100px;
+}
+.secondHeading{
+    background-color: #379cd4;
+    color: white;
+    padding-left: 266px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.space-new-nmc{
+       padding-top: 120px;
+    padding-bottom: 65px;
+}
+@media (max-width: 1024px){
+   .p-style{
+      font-size: 16px;
+   }
+}
+
+@media (max-width: 768px){
+   .span2{
+      width: 31%;
+   }
+   .div-head{
+      width: 47%;
+   }
+   .dept-section{
+      width: 47%;
+   }
+   .p-style{
+      font-size: 5px;
+   }
+   .dept-p{
+      margin-left: 3px;
+   }
+   .r-image-size{
+      height: 31px;
+      width: 33px;
+   }
+   .r-image-size img{
+      width: 60%;
+      margin-bottom: 9px;
+   }
+   .div-icon{
+      width: 8%;
+      height: 31px;
+   }
+   .div-icon img{
+      width: 70%;
+      margin-bottom: 6px;
+   }
+   .faculty-section{
+      left: 0;
+   }
+    .secondHeading{
+      padding-left: 95px;
+      padding-top: 15px;
+      padding-bottom: 2px;
+   }
+   .secondHeading h1{
+      font-size: 21px;
+    margin-bottom: 0px;
+   }
+   .secondHeading h4{
+      font-size: 14px;
+   }
+   .facultydetail-arr h6{
+      font-size: 6px;
+   }
+   .facultydetail-arr h2{
+      font-size: 12px;
+   }
+   .depart-spell{
+      font-size: 14px;
+      margin-top: 8px;
+   }
+   .h1-sizing-office{
+      font-size: 17px;
+   }
+   .p-office{
+      font-size: 18px;
+   }
+   .align-head-office{
+      margin-bottom: 18px;
+   }
+   .space-new-nmc{
+    padding-top: 34px;
+    padding-bottom: 65px;
+}
+}

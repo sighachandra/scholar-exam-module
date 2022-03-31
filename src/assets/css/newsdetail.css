@@ -1,0 +1,141 @@
+:root {
+   --bodybg: #E6F6FC;
+   --textcolor: #2F9CD4;
+
+}
+
+.pos-relative{
+	position: relative;
+}
+.news-section{
+	width: 55%;
+    height: 95px;
+    background-color: var(--textcolor);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgb(0 0 0 / 37%);
+}
+.news-section p{
+	text-align: center;
+    margin-bottom: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    padding: 12px;
+    line-height: 24px;
+}
+.dated-section{
+	width: 55%;
+    height: 95px;
+    border-radius: 14px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 180px;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    z-index: -1;
+     box-shadow: 0px 4px 4px rgb(0 0 0 / 48%);
+}
+.date-wrap{
+	margin-right: 12px;
+}
+.dates{
+	color: var(--textcolor);
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.o-dates{
+	margin-bottom: 0px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+    color: var(--textcolor);
+}
+.mar-top{
+	margin-top: 50px;
+}
+.border-news-section{
+	border-left: 2px solid var(--textcolor);
+}
+.align-news-section{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.latest-news{
+	text-align: center;
+	color: var(--textcolor);
+	margin-bottom: 30px;
+}
+.main-heading-two{
+	color: var(--textcolor);
+}
+.space-div-newsd{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.secondHeading{
+    background-color: #379cd4;
+    color: white;
+    padding-left: 266px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+@media (max-width: 1024px){
+   .dated-section{
+      left: 154px;
+   }
+}
+
+@media (max-width: 768px){
+ .border-news-section{
+ 	border-left: 0px;
+ 	padding-left: 12px;
+ 	padding-right: 12px;
+ }
+ .news-section{
+ 	width: 71%;
+ 	height: 93px;
+ }
+ .news-section p{
+ 	font-size: 16px;
+ }
+ .dated-section{
+ 	width: 71%;
+ 	height: 93px;
+ 	left: 89px;
+ }
+ .align-news-section{
+ 	display: flex;
+    justify-content: start;
+    align-items: start;
+ }
+ .main-heading-two{
+ 	text-align: center;
+ }
+ .main-heading-two h2{
+ 	font-size: 18px;
+ }
+ .latest-news h2{
+ 	font-size: 18px;
+ }
+ .secondHeading{
+      padding-left: 95px;
+      padding-top: 15px;
+      padding-bottom: 2px;
+   }
+   .secondHeading h1{
+      font-size: 21px;
+    margin-bottom: 0px;
+   }
+   .secondHeading h4{
+      font-size: 14px;
+   }
+}
